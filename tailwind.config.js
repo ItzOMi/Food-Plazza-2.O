@@ -4,6 +4,20 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    extend: {
+      colors:{
+        primary:'#FF6363',
+        secondary:{
+          100:'#E2E2D5',
+          200:'#888883',
+        }
+      },
+      fontFamily:{
+        body:['Nunito'],
+        f2:['Rajdhani',{fontWeight: 600}],
+        f3:['Comfortaa',{fontWeight: 300}]
+      }
+    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
@@ -328,7 +342,7 @@ module.exports = {
         'monospace',
       ],
     },
-    fontSize: {
+    fontSize: {   
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],

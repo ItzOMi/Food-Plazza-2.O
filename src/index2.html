@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="css/output.css">
 
 </head>
-<body class="text-gray-600 fontf">
+<body class="text-gray-600 font-body">
     <div class="grid md:grid-cols-3"><!-- <div>content wraper -->
         <div class="md:col-span-1 md:flex md:justify-end">
             <nav class="text-right">
                 <div class="flex justify-between items-center ">
                     <h1 class="font-bold text-3xl uppercase p-4 border-b-2 border-gray-100 spacing">
-                        <a href="/" class="hover:text-gray-700 fontf2">Food Plazzaa</a>
+                        <a href="/" class="hover:text-gray-700 font-semibold font-f2">Food Plazzaa</a>
                     </h1>
                     <div class="px-2 cursor-pointer md:hidden" id="menu_icon">
                         <svg class="w-6 stroke-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -24,7 +24,7 @@
                 </div>
                 <ul class=" text-sm mt-6 hidden md:block" id="menu">
                     <li class="text-gray-700 py-1 font-bold stroke-2">
-                        <a href="#" class="px-4 flex justify-end border-r-4 border-[#FF6363]">
+                        <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
                             <span>Home </span>
                             <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li class="text-gray-700 py-1 hover:font-bold hover:stroke-2">
-                        <a href="#" class="px-4 flex justify-end hover:border-r-4 border-[#FF6363]">
+                        <a href="#" class="px-4 flex justify-end hover:border-r-4 border-primary">
                             <span>About</span>
                             <svg class="w-5 ml-2 "xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="text-gray-700 py-1 hover:font-bold hover:stroke-2">
-                        <a href="#" class="px-4 flex justify-end hover:border-r-4 border-[#FF6363]">
+                        <a href="#" class="px-4 flex justify-end hover:border-r-4 border-primary">
                             <span>Contact</span>
                             <svg class="w-5 ml-2 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -54,10 +54,10 @@
                 </ul>
             </nav>
         </div><!--end nav-->
-        <main class="px-16 py-16 bg-gray-100 md:col-span-2">
-            <div class="flex justify-center md:justify-end">
-                <a href="#" class="rounded-full py-2 px-2 uppercase text-xs font-bold cursor-pointer tracking-wider login border-[#ff6363] md:border-2 hover:bg-[#FF6363] hover:text-white transition ease-out duration-500">Login</a>
-                <a href="#" class="rounded-full py-2 px-2 uppercase text-xs font-bold cursor-pointer tracking-wider login ml-2 border-[#FF6363] md:border-2 hover:bg-[#FF6363] hover:text-white transition ease-out duration-500">Sign Up</a>
+        <main class="px-16 py-10 bg-gray-100 md:col-span-2">
+            <div class="flex justify-center md:justify-end pb-7">
+                <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Login</a>
+                <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign Up</a>
             </div>
             <!-- <div class="flex items-center justify-center">
                 <div class="bg-red-500 h-4 w-6"></div>
@@ -66,20 +66,20 @@
             </div> -->
 
             <header>
-                <h2 class="text-gray-600 text-6xl fontf3 font-semibold ">Recipes</h2>
-                <h3 class="text-2xl fontf3 ml-2 mt-2 font-semibold">For Tourists</h3>
+                <h2 class="text-gray-600 text-6xl font-f3 font-semibold ">Recipes</h2>
+                <h3 class="text-2xl font-f3  ml-2 mt-2 font-semibold">For Tourists</h3>
             </header>
             <div>
                 <h4 class="font-bold mt-12 pb-2 border-b border-red-200">Latest Recipes</h4>
                 <div class="mt-8 grid lg:grid-cols-3 gap-10">
                     <!--cards go here-->
-                    <div class="hover:shadow-xl bg-white rounded overflow-hidden shadow-md relative">
+                    <div class="hover:shadow-xl card ">
                         <img class="w-full h-56 sm:h-64 object-cover" src="imgs/DOSA.jpeg" alt="dosa">
                         <div class="m-4">
                             <span class="font-bold">Indian DOSA-Chutni </span>
                             <span class="block text-gray-500 text-sm">Recipe by Iyyer</span>
                         </div>
-                        <div class="time text-xs uppercase font-bold rounded-full p-1 absolute top-0 ml-2 mt-2">
+                        <div class="badge">
                             <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                                 className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -87,13 +87,13 @@
                             <span>25 min</span>
                         </div>
                     </div>
-                    <div class="hover:shadow-xl bg-white rounded overflow-hidden shadow-md relative">
+                    <div class="hover:shadow-xl card">
                         <img class="w-full h-56 sm:h-64 object-cover" src="imgs/Aamras Puri.jpg" alt="Aamras_puri">
                         <div class="m-4">
                             <span class="font-bold">Maharashtrian Aamras puri </span>
                             <span class="block text-gray-500 text-sm">Recipe by Mami's kitchen</span>
                         </div>
-                        <div class="time text-xs uppercase font-bold rounded-full p-1 absolute top-0 ml-2 mt-2">
+                        <div class="badge">
                             <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                                 className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -101,13 +101,13 @@
                             <span>40 min</span>
                         </div>
                     </div>
-                    <div class="hover:shadow-xl bg-white rounded overflow-hidden shadow-md relative">
+                    <div class="hover:shadow-xl card">
                         <img class="w-full h-56 sm:h-64 object-cover" src="imgs/Biryani.jpg" alt="Biryani">
                         <div class="m-4">
                             <span class="font-bold">Hydrabadi Chicken Biryani</span>
                             <span class="block text-gray-500 text-sm">Recipe by Abdul</span>
                         </div>
-                        <div class="time text-xs uppercase font-bold rounded-full p-1 absolute top-0 ml-2 mt-2">
+                        <div class="badge">
                             <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                                 className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -122,7 +122,7 @@
                     <!-- cards go here-->
                 </div>
                 <div class="flex justify-center">
-                    <div class="rounded-full py-2 px-2 uppercase text-xs font-bold cursor-pointer tracking-wider bgc hover:shadow-inner transform hover:scale-125 hover:bg-opacity-75 transition ease-in-out duration-200">Load More</div>
+                    <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-75 transition ease-in-out duration-200">Load More</div>
                 </div>
             </div>
         </main> 
